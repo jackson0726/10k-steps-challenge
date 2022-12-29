@@ -1,4 +1,5 @@
 # Ingestion Service
+![Screenshot](https://github.com/jackson0726/10k-steps-challenge/blob/main/ingest-service/src/main/resources/images/ingestion_service_architecture.png)
 
 ### Description
 + The ingestion service collects pedometer device updates.
@@ -10,8 +11,6 @@
   + The device identifier.
   + A synchronization identifier, which is a monotonically increasing long integer that the device updates for each successful synchronization.
   + The number of steps since the last synchronization.
-
-+ Link: ![Screenshot](./ingest-service/src/main/resources/images/ingestion_service_architecture.png")
 
 + API:
   + /ingest: POST - Ingest a pedometer update (200: success, 500: internal error)
