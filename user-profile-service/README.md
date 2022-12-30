@@ -16,4 +16,4 @@
   + /user/<username>: GET - Get a user's details (200: success, 404: username does not exists, 500: internal error).
   + /user/<username>: PUT - Update some user details (200: success, 404: username does not exists, 500: internal error).
   + /user/authenticate: POST - Credentials validation (200: success, 401: when authentication fails).
-  + /user/owns/<deviceId>: GET - Reverse lookup of a user by their device (200: success, 409: device does not exists, 500: internal error).
+  + /user/owns/<device_id>: GET - Reverse lookup of a user by their device (200: success, 409: device does not exists, 500: internal error).
